@@ -1057,7 +1057,7 @@ var temp_ori = `
 1076 熱中/熱誠 n. zeal `
 
 
-var temp = `
+var temp2 = `
 1 若依照電腦網路連接的範圍來分類的話,學校的校園網路是屬於下列哪一個選項? n. -區域網路。
 2 TCP/IP協定組合的詳細規格可以在下列哪一個選項中找到? n. -RFC
 3 下列何者「不是」乙太網路(Ethernet)一般在使用的傳送媒介? n. -無線
@@ -1073,6 +1073,30 @@ var temp = `
 13 下列網路拓樸中何者在傳送資料時有多條路徑可以選擇? n. -網狀拓樸(mesh)
 `
 
+var temp = `
+1 若依照電腦網路連接的範圍來分類的話,學校的校園網路是屬於下列哪一個選項? n. (D)區域網路。
+2 TCP/IP協定組合的詳細規格可以在下列哪一個選項中找到? n. (C)RFC
+3 下列何者「不是」乙太網路(Ethernet)一般在使用的傳送媒介? n. (B)無線
+4 網際網路(Internet)是屬於下列哪一種網路? n. (B)廣域網路(WAN)
+5 一般大家所廣泛使用的無線區域網路(WLAN,WiFi),其規格是下列哪一個? n. (B)IEEE802.11
+6 一般大家所廣泛使用的藍芽網路(Bluetooth),其規格是下列哪一個? n. (C)IEEE802.15
+7 一般大家所廣泛使用的乙太網路(Ethernet),其規格是下列哪一個? n. (A) IEEE802.3
+8 下列有關UDP的重要特徵何者正確? n. (D)可靠性傳送資料傳輸低延遲性。
+9 傳送媒介中無包覆的UTP 是下列哪一種? n. (D)雙絞線 
+10 使用感知無線電(cognitive radio,CR)技術的是屬於下列哪一種網路? n. (A)局部地區性網路(RAN)
+11 網路設備中,「路由器(router)」是屬於第幾層的設備? n. (C)第三層
+12 網路設備中,「集線器(hub)」是屬於第幾層的設備? n. (A)第一層
+13 下列網路拓樸中何者在傳送資料時有多條路徑可以選擇? n. (C)網狀拓樸(mesh)
+14 訊號的傳輸技術大致可分為兩大類:基頻(Baseband)傳輸及寬頻(Broadband)傳輸。其中哪種傳輸類比訊號?哪種傳輸數位訊號?(6%) n. -(1)類比→寬頻(Broadband)傳輸,(2)數位→基頻(Baseband)傳輸。
+15 請簡單比較網路設備「集線器(Hub)」與「交換機(Switch)」最主要的差異處。(3%) n. -集線器(Hub)是利用廣播方式是傳資料(會碰撞),交換機(Switch)是利用MACaddress的方式傳送資料(不會碰撞)。
+16 ISO_OSI參考模型共有七層,請寫出第一層~第七層的名稱(中英文皆可),必須由第一層~第七層依序列出。(21%) n. -(1)實體層(Physical_layer)、(2)資料連結層(Data_link_layer)、(3)網路層(Network_layer)、(4)傳輸層(Transport_layer)、(5)會議層(Session_layer)、(6)表現層(Presentation_layer)、(7)應用層(Application_layer)。
+17 接上一題,在此網路七層中,具有IP協定(IP位址)、路由(routing)協定、網管協定(ICMP,Ping)等功能的是哪一層? (3%) n. -網路層(network_layer)。
+18 接上一題,在此網路七層中,具有編碼(encode)、解碼(de-code)、亂碼(scramble)、順碼(de-scramble)、送收(Tx/Rx)與碰撞偵測(collision_detection)等功能的是哪一層?(3%) n. -實體層(physical_layer,PHY)。
+19 IPv4中IP位址(address)的長度為 n. -32位元(bits)
+192 IPv6中IP位址(address)的長度為 n. -128位元(bits)
+193 乙太網路(Ethernet)的位址(MAC_address、網路卡位址)為 n. -48位元(bits)
+20 請列出常見的4種標準的網路拓撲(Topology)架構,並簡單的說明其架構的特點。(16%) n. -(1)匯流排(Bus):以一條纜線串接。(2)星狀(Star):以網路設備(Hub,Switch,etc.)為中心。(3)環狀(Ring):以一條纜線串接成環狀。(4)網狀(Mesh):各點可互相連接,原則上一點到另一點必須存在兩條或以上的路徑。
+`
 
   // 先觀察資料分隔的方式 接著用array methods來處理
 var rows = temp.split('\n');  // 切 每一行
