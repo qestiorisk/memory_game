@@ -1090,11 +1090,11 @@ var temp = `
 14 訊號的傳輸技術大致可分為兩大類:基頻(Baseband)傳輸及寬頻(Broadband)傳輸。其中哪種傳輸類比訊號?哪種傳輸數位訊號?(6%) n. -(1)類比→寬頻(Broadband)傳輸,(2)數位→基頻(Baseband)傳輸。
 15 請簡單比較網路設備「集線器(Hub)」與「交換機(Switch)」最主要的差異處。(3%) n. -集線器(Hub)是利用廣播方式是傳資料(會碰撞),交換機(Switch)是利用MACaddress的方式傳送資料(不會碰撞)。
 16 ISO_OSI參考模型共有七層,請寫出第一層~第七層的名稱(中英文皆可),必須由第一層~第七層依序列出。(21%) n. -(1)實體層(Physical_layer)、(2)資料連結層(Data_link_layer)、(3)網路層(Network_layer)、(4)傳輸層(Transport_layer)、(5)會議層(Session_layer)、(6)表現層(Presentation_layer)、(7)應用層(Application_layer)。
-17 接上一題,在此網路七層中,具有IP協定(IP位址)、路由(routing)協定、網管協定(ICMP,Ping)等功能的是哪一層? (3%) n. -網路層(network_layer)。
-18 接上一題,在此網路七層中,具有編碼(encode)、解碼(de-code)、亂碼(scramble)、順碼(de-scramble)、送收(Tx/Rx)與碰撞偵測(collision_detection)等功能的是哪一層?(3%) n. -實體層(physical_layer,PHY)。
+17 在ISO_OSI網路七層中,具有IP協定(IP位址)、路由(routing)協定、網管協定(ICMP,Ping)等功能的是哪一層? n. -網路層(network_layer)。
+18 在ISO_OSI網路七層中,具有編碼(encode)、解碼(de-code)、亂碼(scramble)、順碼(de-scramble)、送收(Tx/Rx)與碰撞偵測(collision_detection)等功能的是哪一層?(3%) n. -實體層(physical_layer,PHY)。
 19 IPv4中IP位址(address)的長度為 n. -32位元(bits)
 192 IPv6中IP位址(address)的長度為 n. -128位元(bits)
-193 乙太網路(Ethernet)的位址(MAC_address、網路卡位址)為 n. -48位元(bits)
+193 乙太網路(Ethernet)的位址(MAC_address、網路卡位址)的長度為 n. -48位元(bits)
 20 請列出常見的4種標準的網路拓撲(Topology)架構,並簡單的說明其架構的特點。(16%) n. -(1)匯流排(Bus):以一條纜線串接。(2)星狀(Star):以網路設備(Hub,Switch,etc.)為中心。(3)環狀(Ring):以一條纜線串接成環狀。(4)網狀(Mesh):各點可互相連接,原則上一點到另一點必須存在兩條或以上的路徑。
 `
 
